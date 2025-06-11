@@ -1,13 +1,6 @@
 Sellr - Aplikasi E-Commerce Makanan Sederhana
 Sellr adalah aplikasi e-commerce sederhana untuk platform Android yang dirancang sebagai studi kasus dalam membangun aplikasi belanja online. Aplikasi ini memungkinkan pengguna untuk mendaftar, login, melihat produk makanan, menambahkannya ke keranjang, dan menyelesaikan transaksi. Seluruh data transaksi disimpan secara real-time menggunakan Firebase.
 
-📸 Tampilan Aplikasi (Screenshots)
-	Berikut adalah beberapa tampilan utama dari aplikasi Sellr:
-![Screenshot_20250611_222946](https://github.com/user-attachments/assets/584fec07-36ee-4a8d-a63e-017775691ef8)
-
-![Screenshot_20250611_222834](https://github.com/user-attachments/assets/fe4c94fd-c21c-4107-a144-9a0b0b17b553)
-
-![Screenshot_20250611_223437](https://github.com/user-attachments/assets/7879949e-0f5a-4ed2-9ff8-d0adbe95d2f9)
 
 ✨ Fitur Utama
 		Aplikasi ini dilengkapi dengan fitur-fitur esensial sebagai berikut:
