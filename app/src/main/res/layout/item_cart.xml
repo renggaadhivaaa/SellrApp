@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivFoodImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvFoodName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            app:layout_constraintStart_toEndOf="@id/ivFoodImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ivFoodImage"
+            tools:text="Nama Makanan Super Panjang Sekali" />
+
+        <TextView
+            android:id="@+id/tvFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvFoodName"
+            app:layout_constraintTop_toBottomOf="@id/tvFoodName"
+            tools:text="Rp 25.000" />
+
+        <ImageButton
+            android:id="@+id/btnDecrement"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_remove"
+            app:layout_constraintEnd_toStartOf="@id/tvQuantity"
+            app:layout_constraintTop_toTopOf="@id/tvFoodPrice"
+            app:layout_constraintBottom_toBottomOf="@id/tvFoodPrice" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:text="1"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@id/btnIncrement"
+            app:layout_constraintTop_toTopOf="@id/btnDecrement"
+            app:layout_constraintBottom_toBottomOf="@id/btnDecrement"/>
+
+        <ImageButton
+            android:id="@+id/btnIncrement"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/btnDecrement"
+            app:layout_constraintBottom_toBottomOf="@id/btnDecrement"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

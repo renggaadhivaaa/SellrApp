@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188226693428",
+    "project_id": "sellr-9c516",
+    "storage_bucket": "sellr-9c516.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188226693428:android:6f33f692ce91ed8af45d61",
+        "android_client_info": {
+          "package_name": "com.example.sellr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh2MAlwFzNnLHwPhggCAHNiZ0sbdmB1QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
