@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private var foodList: List<FoodItem> = listOf()
 
     private val auth = FirebaseAuth.getInstance()
-    // 🔥 PERBAIKAN KRITIKAL: Tentukan URL Database sesuai region Anda!
+    // URL Database
     private val database = FirebaseDatabase.getInstance("https://sellr-9c516-default-rtdb.asia-southeast1.firebasedatabase.app").reference
 
     private val cartNode = "carts"
