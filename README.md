@@ -139,6 +139,3 @@ URL Gambar: Gambar produk dimuat dari URL publik di internet. URL ini mungkin bi
 
 🤝 Kontribusi
 Kontribusi dalam bentuk pull request, isu, atau ide fitur sangat diterima. Jangan ragu untuk membuat fork dari proyek ini dan melakukan eksperimen.
-
-📜 Lisensi
-Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk detail lebih lanjut.
